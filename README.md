@@ -12,3 +12,5 @@
 ### Áp dụng vô project mới
 output: source code của CRUD sample
 estimation: 3 days
+
+Output file: Vuejs.xlsx
