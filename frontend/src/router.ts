@@ -10,6 +10,10 @@ const routes: Array<RouteRecordRaw> = [
     component: TutorialsList,
   },
   {
+    path: "/tutorials",
+    component: TutorialsList,
+  },
+  {
     path: "/tutorials/:id",
     component: TutorialDetails,
   },

@@ -29,24 +29,24 @@
 
     <button
       v-if="currentTutorial.published"
-      class="badge badge-primary mr-2"
+      class="badge badge-primary mr-2 btn-success"
       @click="updatePublished(false)"
     >
       UnPublish
     </button>
     <button
       v-else
-      class="badge badge-primary mr-2"
+      class="badge badge-primary mr-2 btn-success"
       @click="updatePublished(true)"
     >
       Publish
     </button>
 
-    <button class="badge badge-danger mr-2" @click="deleteTutorial">
+    <button class="badge badge-danger mr-2 btn-secondary" @click="deleteTutorial">
       Delete
     </button>
 
-    <button type="submit" class="badge badge-success" @click="updateTutorial">
+    <button type="submit" class="badge badge-success btn-danger" @click="updateTutorial">
       Update
     </button>
     <p>{{ message }}</p>

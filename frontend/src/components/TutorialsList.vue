@@ -54,7 +54,7 @@
 
         <router-link
           :to="'/tutorials/' + currentTutorial.id"
-          class="badge badge-warning"
+          class="m-3 btn btn-sm btn-info"
           >Edit</router-link
         >
       </div>
